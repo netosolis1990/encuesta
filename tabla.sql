@@ -1,0 +1,6 @@
+CREATE TABLE IF NOT EXISTS `encuesta` (
+`id` int(11) NOT NULL PRIMARY KEY,
+  `pais` varchar(100) NOT NULL,
+  `edad` int(11) NOT NULL,
+  `fecha` timestamp NOT NULL DEFAULT CURRENT_TIMESTAMP
+) ENGINE=InnoDB  DEFAULT CHARSET=utf8 AUTO_INCREMENT=0 ;
